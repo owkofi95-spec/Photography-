@@ -1,7 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 
-// Trovi questi due valori dentro Supabase -> Project Settings -> API
-const supabaseUrl = 'https://IL-TUO-PROGETTO.supabase.co';
-const supabaseAnonKey = 'Organizzatore1.';
+const supabaseUrl = 'sb_publishable_aFAMtCQzMOw427Dxnk9K-Q_OYpAD7Gm';
+const supabaseAnonKey = 'sb_secret_obLZ0wczP5Ikdxt-_7XuBA_E8VD9zjx.';
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
